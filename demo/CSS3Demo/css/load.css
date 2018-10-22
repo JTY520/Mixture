@@ -1,0 +1,149 @@
+#loading{ 
+	margin-top:30px; 
+	float:left; 
+	width:95px; 
+	height:32px; 
+	background-color:#779ec2; 
+	margin-left:30px; 
+	/* CSS3圆角边框 */ 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+}
+.coloumns{ 
+	background-color:#fff; 
+	border:1px solid #fff; 
+	float:left; 
+	height:30px; 
+	margin-left:5px; 
+	width:10px; 
+	/* 在这儿我们定义一个动画名，随后我们将会实现它 */ 
+	-webkit-animation-name: animation; 
+	/* 动画循环一次的总时间 */ 
+	-webkit-animation-duration: 3s; 
+	/* 动画的循环次数，我们设置为无穷大 */ 
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: linear; 
+	/* 最初所有列的透明度都为0 */ 
+	opacity:0; 
+	/* 开始时将它缩放为0.8 */ 
+	-webkit-transform:scale(0.8); 
+}
+#coloumn1{ 
+	/* 第一列动画延迟0.3秒 */ 
+	-webkit-animation-delay: .3s; 
+}
+#coloumn2{
+	 /* 第二列动画延迟0.4秒 */ 
+	 -webkit-animation-delay: .4s;
+}
+#coloumn3{ 
+	/* 第三列动画延迟0.5秒*/
+	 -webkit-animation-delay: .5s;
+}
+#coloumn4{ 
+	/* 第四列动画延迟0.6秒*/ 
+	-webkit-animation-delay: .6s; 
+}
+#coloumn5{ 
+	/* 第四列动画延迟0.7秒*/ 
+	-webkit-animation-delay: .7s;
+}
+#coloumn6{ 
+	/* 第四列动画延迟0.8秒*/ 
+	-webkit-animation-delay: .8s;
+}
+/* 之前我们曾经定义过动画的名称，我们在这儿设置动画的属性 */
+@-webkit-keyframes animation{ 
+	/* 在动画开始时每一列的透明度都是0 */ 
+	0%{opacity:0;} 
+	/* 在动画中间时每一列的透明度都是1 */ 
+	50%{opacity:1;} 
+	/*在动画结束时每一列的透明度都还原到0 */ 
+	100%{opacity:0;}
+}
+
+
+#loading1{ 
+	margin-top:30px; 
+	float:left; 
+	margin-left:30px;
+}
+.coloumns1{ 
+	background-color:#39F; 
+	border:1px solid #00F; 
+	float:left; height:30px; 
+	margin-left:5px; 
+	width:8px; 
+	-webkit-animation-name: animation1; 
+	-webkit-animation-duration: 2s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: linear; 
+	opacity:0.2; 
+	-webkit-transform:scale(0.6); 
+}
+#coloumn11{ 
+	-webkit-animation-delay: .3s; 
+}
+#coloumn22{ 
+	-webkit-animation-delay: .4s;
+}
+#coloumn33{ 
+	-webkit-animation-delay: .5s;
+}
+#coloumn44{ 
+	-webkit-animation-delay: .6s; 
+}
+#coloumn55{ 
+	-webkit-animation-delay: .7s;
+}
+#coloumn66{ 
+	-webkit-animation-delay: .8s;
+}
+@-webkit-keyframes animation1{ 
+	0%{
+		-webkit-transform: scale(.9);
+		opacity:1;
+	} 
+	100%{
+		-webkit-transform: scale(.2);
+		opacity:0.1;
+	}
+}
+#loading2{ 
+	margin-top:30px; 
+	float:left; 
+	margin-left:30px;
+}
+.coloumns2{ 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+	background-color:#39F; 
+	float:left; 
+	height:20px; 
+	margin-left:5px; 
+	width:20px; 
+	-webkit-animation-name: animation2; 
+	-webkit-animation-duration: 2s; 
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: linear; 
+	opacity:0; 
+}
+#coloumn111{ 
+	-webkit-animation-delay: .1s; 
+}
+#coloumn222{ 
+	-webkit-animation-delay: .3s;
+}
+#coloumn333{ 
+	-webkit-animation-delay: .5s;
+}
+#coloumn444{ 
+	-webkit-animation-delay: .7s; 
+}
+@-webkit-keyframes animation2{ 
+	0%{opacity:0;} 
+	50%{opacity:1;} 
+	100%{opacity:0;}
+}

@@ -1,0 +1,26 @@
+.up-btn{
+	width:200px;
+	height: 40px;
+	position: relative;
+	border: 1px red solid;
+}
+#inputImg{
+	width:200px;
+	height: 40px;
+	position: relative;
+	opacity: 0;
+}
+#img{
+	width:400px;
+	height:400px;
+	border:1px red solid;
+	margin: 0 auto;
+	display: block;
+}
+
+#img img{
+	display: block;
+	width: 350px;
+	height: 350px;
+	margin: auto;
+}
